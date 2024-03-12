@@ -11,11 +11,12 @@ public class scanner04{
 		int a = input.nextInt();
 		System.out.print("변수 b에 넣을 숫자 입력 : ");
 		int b = input.nextInt();
-		int c = input.nextInt();
+		int c;
 		
 		c = a;
 		a = b;
 		b = c;
+		
 		System.out.println("변수 a의 값 = " + a);
 		System.out.print("변수 b의 값 = " + b);
 	
